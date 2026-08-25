@@ -1,0 +1,21 @@
+name: Uptime graphs
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  uptime-graphs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate uptime graphs
+        uses: upptime/uptime-monitor@v2
+        with:
+          UPPTIME_GH_PAT: ${{ secrets.UPPTIME_GH_PAT }}
+          runner: graphs
+        env:
+          GH_PAT: ${{ secrets.UPPTIME_GH_PAT }}

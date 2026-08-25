@@ -1,0 +1,46 @@
+name: Incident
+description: Incident de disponibilité automatiquement détecté par Upptime
+title: "🔴 [INCIDENT] $SERVICE est indisponible"
+labels: ["incident", "automated"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Incident détecté automatiquement
+  - type: input
+    id: service
+    attributes:
+      label: Service affecté
+      placeholder: "Ex: API LegisBox"
+    validations:
+      required: true
+  - type: input
+    id: start_time
+    attributes:
+      label: Heure de début (UTC)
+      placeholder: "Ex: 2026-08-25 22:30 UTC"
+    validations:
+      required: true
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact estimé
+      options:
+        - Dégradation partielle
+        - Service indisponible
+        - Perte de données possible
+    validations:
+      required: true
+  - type: textarea
+    id: status
+    attributes:
+      label: Statut et mises à jour
+      placeholder: |
+        22:30 UTC — Incident détecté, investigation en cours
+        22:45 UTC — Cause identifiée : ...
+        23:00 UTC — Service rétabli
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        *Cet incident est suivi sur [status.legisbox.fr](https://status.legisbox.fr)*

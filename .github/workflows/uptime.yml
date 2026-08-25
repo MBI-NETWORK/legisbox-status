@@ -1,0 +1,22 @@
+name: Uptime CI
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  uptime:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Upptime
+        uses: upptime/uptime-monitor@v2
+        with:
+          UPPTIME_GH_PAT: ${{ secrets.UPPTIME_GH_PAT }}
+        env:
+          GH_PAT: ${{ secrets.UPPTIME_GH_PAT }}

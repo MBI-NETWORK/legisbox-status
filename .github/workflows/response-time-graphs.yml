@@ -1,0 +1,22 @@
+name: Response time graphs
+on:
+  workflow_run:
+    workflows: ["Uptime CI"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  response-time-graphs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate response time graphs
+        uses: upptime/uptime-monitor@v2
+        with:
+          UPPTIME_GH_PAT: ${{ secrets.UPPTIME_GH_PAT }}
+          runner: graphs
+        env:
+          GH_PAT: ${{ secrets.UPPTIME_GH_PAT }}

@@ -1,0 +1,66 @@
+owner: MBI-NETWORK
+repo: legisbox-status
+userAgent: LegisBox-Status-Bot
+
+sites:
+  - name: API — Health général
+    url: https://api.legisbox.fr/health
+    expectedStatusCodes: [200]
+    maxResponseTime: 1000
+
+  - name: API — Qdrant
+    url: https://api.legisbox.fr/health/qdrant
+    expectedStatusCodes: [200]
+    maxResponseTime: 2000
+
+  - name: API — Redis
+    url: https://api.legisbox.fr/health/redis
+    expectedStatusCodes: [200]
+    maxResponseTime: 500
+
+  - name: App — Frontend
+    url: https://app.legisbox.fr
+    expectedStatusCodes: [200]
+    maxResponseTime: 5000
+
+issues:
+  enabled: true
+
+commits:
+  enabled: true
+  commitMessages:
+    readmeContent: "📊 Update status [skip ci]"
+    summaryJson: "📊 Update summary [skip ci]"
+    statusChange: "🟥 $SITE is down [skip ci]"
+    statusUp: "🟩 $SITE is back up [skip ci]"
+    graphs: "📈 Update graphs [skip ci]"
+
+status-website:
+  cname: status.legisbox.fr
+  logoUrl: https://legisbox.fr/assets/logo.svg
+  name: LegisBox — État des services
+  introTitle: "État des services LegisBox"
+  introMessage: >
+    Cette page affiche la disponibilité en temps réel des services LegisBox.
+    Nous nous engageons à une disponibilité de 99,9%.
+    En cas d'incident, les mises à jour sont publiées ici automatiquement.
+  navbar:
+    - title: LegisBox
+      href: https://legisbox.fr
+    - title: Application
+      href: https://app.legisbox.fr
+    - title: Contact
+      href: mailto:hello@legisbox.fr
+
+notifications:
+  - type: github-issues
+  - type: smtp
+    host: $SMTP_HOST
+    port: 587
+    username: $SMTP_USERNAME
+    password: $SMTP_PASSWORD
+    from: monitoring@legisbox.fr
+    to: hello@legisbox.fr
+    subject: "[LegisBox] $STATUS — $SITE"
+
+acceptableResponseTime: 3000

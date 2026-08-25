@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run Upptime
-        uses: upptime/uptime-monitor@v2
+        uses: upptime/uptime-monitor@v1
         with:
           UPPTIME_GH_PAT: ${{ secrets.UPPTIME_GH_PAT }}
         env:

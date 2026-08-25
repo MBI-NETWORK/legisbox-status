@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Generate uptime graphs
-        uses: upptime/uptime-monitor@v2
+        uses: upptime/uptime-monitor@v1
         with:
           UPPTIME_GH_PAT: ${{ secrets.UPPTIME_GH_PAT }}
           runner: graphs

@@ -6,12 +6,12 @@
     "slug": "api-health-general",
     "status": "down",
     "uptime": "16.03%",
-    "uptimeDay": "85.22%",
+    "uptimeDay": "85.17%",
     "uptimeWeek": "20.32%",
     "uptimeMonth": "16.03%",
     "uptimeYear": "16.03%",
     "time": 708,
-    "timeDay": 761,
+    "timeDay": 589,
     "timeWeek": 708,
     "timeMonth": 708,
     "timeYear": 708,
@@ -25,7 +25,7 @@
       "2026-08-27": 1440,
       "2026-08-26": 1440,
       "2026-08-25": 153,
-      "2026-09-03": 212
+      "2026-09-03": 214
     }
   },
   {
@@ -35,12 +35,12 @@
     "slug": "api-qdrant",
     "status": "down",
     "uptime": "16.03%",
-    "uptimeDay": "85.24%",
+    "uptimeDay": "85.19%",
     "uptimeWeek": "20.33%",
     "uptimeMonth": "16.03%",
     "uptimeYear": "16.03%",
     "time": 598,
-    "timeDay": 539,
+    "timeDay": 433,
     "timeWeek": 598,
     "timeMonth": 598,
     "timeYear": 598,
@@ -54,7 +54,7 @@
       "2026-08-27": 1440,
       "2026-08-26": 1440,
       "2026-08-25": 152,
-      "2026-09-03": 212
+      "2026-09-03": 213
     }
   },
   {
@@ -62,17 +62,17 @@
     "url": "https://api.legisbox.fr/health/redis",
     "icon": "https://icons.duckduckgo.com/ip3/api.legisbox.fr.ico",
     "slug": "api-redis",
-    "status": "down",
+    "status": "degraded",
     "uptime": "7.52%",
     "uptimeDay": "37.10%",
     "uptimeWeek": "9.54%",
     "uptimeMonth": "7.52%",
     "uptimeYear": "7.52%",
-    "time": 534,
-    "timeDay": 543,
-    "timeWeek": 534,
-    "timeMonth": 534,
-    "timeYear": 534,
+    "time": 540,
+    "timeDay": 540,
+    "timeWeek": 540,
+    "timeMonth": 540,
+    "timeYear": 540,
     "dailyMinutesDown": {
       "2026-09-02": 720,
       "2026-09-01": 1440,
@@ -83,7 +83,7 @@
       "2026-08-27": 1440,
       "2026-08-26": 1440,
       "2026-08-25": 152,
-      "2026-09-03": 867
+      "2026-09-03": 868
     }
   },
   {
@@ -103,7 +103,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-09-03": 1109,
+      "2026-09-03": 1110,
       "2026-09-02": 1440,
       "2026-09-01": 1440,
       "2026-08-31": 1440,

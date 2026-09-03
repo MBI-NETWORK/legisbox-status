@@ -1,7 +1,7 @@
 url: https://api.legisbox.fr/health/qdrant
-status: up
-code: 200
-responseTime: 644
-lastUpdated: 2026-09-02T18:29:22.966Z
+status: down
+code: 502
+responseTime: 433
+lastUpdated: 2026-09-03T14:56:48.452Z
 startTime: 2026-08-25T21:27:15.385Z
 generator: Upptime <https://github.com/upptime/upptime>

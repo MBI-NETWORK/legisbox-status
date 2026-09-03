@@ -6,7 +6,7 @@
     "slug": "api-health-general",
     "status": "down",
     "uptime": "15.82%",
-    "uptimeDay": "73.55%",
+    "uptimeDay": "73.47%",
     "uptimeWeek": "20.32%",
     "uptimeMonth": "15.82%",
     "uptimeYear": "15.82%",
@@ -25,7 +25,7 @@
       "2026-08-27": 1440,
       "2026-08-26": 1440,
       "2026-08-25": 153,
-      "2026-09-03": 381
+      "2026-09-03": 382
     }
   },
   {
@@ -34,11 +34,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.legisbox.fr.ico",
     "slug": "api-qdrant",
     "status": "down",
-    "uptime": "15.83%",
-    "uptimeDay": "73.57%",
+    "uptime": "15.82%",
+    "uptimeDay": "73.49%",
     "uptimeWeek": "20.33%",
-    "uptimeMonth": "15.83%",
-    "uptimeYear": "15.83%",
+    "uptimeMonth": "15.82%",
+    "uptimeYear": "15.82%",
     "time": 598,
     "timeDay": 433,
     "timeWeek": 598,
@@ -54,7 +54,7 @@
       "2026-08-27": 1440,
       "2026-08-26": 1440,
       "2026-08-25": 152,
-      "2026-09-03": 381
+      "2026-09-03": 382
     }
   },
   {
@@ -62,17 +62,17 @@
     "url": "https://api.legisbox.fr/health/redis",
     "icon": "https://icons.duckduckgo.com/ip3/api.legisbox.fr.ico",
     "slug": "api-redis",
-    "status": "down",
+    "status": "degraded",
     "uptime": "7.43%",
-    "uptimeDay": "25.50%",
+    "uptimeDay": "25.41%",
     "uptimeWeek": "9.54%",
     "uptimeMonth": "7.43%",
     "uptimeYear": "7.43%",
-    "time": 527,
-    "timeDay": 524,
-    "timeWeek": 527,
-    "timeMonth": 527,
-    "timeYear": 527,
+    "time": 533,
+    "timeDay": 535,
+    "timeWeek": 533,
+    "timeMonth": 533,
+    "timeYear": 533,
     "dailyMinutesDown": {
       "2026-09-02": 720,
       "2026-09-01": 1440,
@@ -83,7 +83,7 @@
       "2026-08-27": 1440,
       "2026-08-26": 1440,
       "2026-08-25": 152,
-      "2026-09-03": 1035
+      "2026-09-03": 1037
     }
   },
   {
@@ -103,7 +103,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-09-03": 1277,
+      "2026-09-03": 1279,
       "2026-09-02": 1440,
       "2026-09-01": 1440,
       "2026-08-31": 1440,

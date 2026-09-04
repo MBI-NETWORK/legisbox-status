@@ -5,11 +5,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.legisbox.fr.ico",
     "slug": "api-health-general",
     "status": "down",
-    "uptime": "15.82%",
-    "uptimeDay": "73.47%",
+    "uptime": "15.22%",
+    "uptimeDay": "37.71%",
     "uptimeWeek": "20.32%",
-    "uptimeMonth": "15.82%",
-    "uptimeYear": "15.82%",
+    "uptimeMonth": "15.22%",
+    "uptimeYear": "15.22%",
     "time": 708,
     "timeDay": 589,
     "timeWeek": 708,
@@ -25,7 +25,8 @@
       "2026-08-27": 1440,
       "2026-08-26": 1440,
       "2026-08-25": 153,
-      "2026-09-03": 382
+      "2026-09-04": 354,
+      "2026-09-03": 543
     }
   },
   {
@@ -34,11 +35,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.legisbox.fr.ico",
     "slug": "api-qdrant",
     "status": "down",
-    "uptime": "15.82%",
-    "uptimeDay": "73.49%",
+    "uptime": "15.22%",
+    "uptimeDay": "37.73%",
     "uptimeWeek": "20.33%",
-    "uptimeMonth": "15.82%",
-    "uptimeYear": "15.82%",
+    "uptimeMonth": "15.22%",
+    "uptimeYear": "15.22%",
     "time": 598,
     "timeDay": 433,
     "timeWeek": 598,
@@ -54,7 +55,8 @@
       "2026-08-27": 1440,
       "2026-08-26": 1440,
       "2026-08-25": 152,
-      "2026-09-03": 382
+      "2026-09-04": 354,
+      "2026-09-03": 543
     }
   },
   {
@@ -62,17 +64,17 @@
     "url": "https://api.legisbox.fr/health/redis",
     "icon": "https://icons.duckduckgo.com/ip3/api.legisbox.fr.ico",
     "slug": "api-redis",
-    "status": "degraded",
-    "uptime": "7.43%",
-    "uptimeDay": "25.41%",
+    "status": "down",
+    "uptime": "7.14%",
+    "uptimeDay": "16.73%",
     "uptimeWeek": "9.54%",
-    "uptimeMonth": "7.43%",
-    "uptimeYear": "7.43%",
-    "time": 533,
-    "timeDay": 535,
-    "timeWeek": 533,
-    "timeMonth": 533,
-    "timeYear": 533,
+    "uptimeMonth": "7.14%",
+    "uptimeYear": "7.14%",
+    "time": 529,
+    "timeDay": 519,
+    "timeWeek": 529,
+    "timeMonth": 529,
+    "timeYear": 529,
     "dailyMinutesDown": {
       "2026-09-02": 720,
       "2026-09-01": 1440,
@@ -83,7 +85,8 @@
       "2026-08-27": 1440,
       "2026-08-26": 1440,
       "2026-08-25": 152,
-      "2026-09-03": 1037
+      "2026-09-03": 1198,
+      "2026-09-04": 354
     }
   },
   {
@@ -103,7 +106,8 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-09-03": 1279,
+      "2026-09-04": 354,
+      "2026-09-03": 1440,
       "2026-09-02": 1440,
       "2026-09-01": 1440,
       "2026-08-31": 1440,

@@ -1,7 +1,7 @@
 url: https://api.legisbox.fr/health/redis
-status: degraded
+status: up
 code: 200
-responseTime: 614
-lastUpdated: 2026-09-12T09:12:46.338Z
+responseTime: 443
+lastUpdated: 2026-09-12T12:53:42.358Z
 startTime: 2026-08-25T21:27:38.624Z
 generator: Upptime <https://github.com/upptime/upptime>

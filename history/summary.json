@@ -4,17 +4,17 @@
     "url": "https://api.legisbox.fr/health",
     "icon": "https://icons.duckduckgo.com/ip3/api.legisbox.fr.ico",
     "slug": "api-health-general",
-    "status": "degraded",
+    "status": "up",
     "uptime": "46.33%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.94%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "46.33%",
     "uptimeYear": "46.33%",
-    "time": 797,
-    "timeDay": 1152,
-    "timeWeek": 1152,
-    "timeMonth": 797,
-    "timeYear": 797,
+    "time": 794,
+    "timeDay": 956,
+    "timeWeek": 956,
+    "timeMonth": 794,
+    "timeYear": 794,
     "dailyMinutesDown": {
       "2026-09-02": 288,
       "2026-09-01": 1440,
@@ -31,7 +31,7 @@
       "2026-09-04": 1440,
       "2026-09-03": 543,
       "2026-09-08": 487,
-      "2026-09-16": 0
+      "2026-09-16": 1
     }
   },
   {
@@ -75,7 +75,7 @@
     "slug": "api-redis",
     "status": "degraded",
     "uptime": "26.27%",
-    "uptimeDay": "95.45%",
+    "uptimeDay": "95.40%",
     "uptimeWeek": "54.16%",
     "uptimeMonth": "26.27%",
     "uptimeYear": "26.27%",
@@ -107,7 +107,7 @@
       "2026-09-13": 786,
       "2026-09-14": 416,
       "2026-09-15": 443,
-      "2026-09-16": 66
+      "2026-09-16": 67
     }
   },
   {
@@ -117,8 +117,8 @@
     "slug": "app-frontend",
     "status": "up",
     "uptime": "0.93%",
-    "uptimeDay": "20.23%",
-    "uptimeWeek": "2.89%",
+    "uptimeDay": "20.29%",
+    "uptimeWeek": "2.90%",
     "uptimeMonth": "0.93%",
     "uptimeYear": "0.93%",
     "time": 2552,

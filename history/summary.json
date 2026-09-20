@@ -4,17 +4,17 @@
     "url": "https://api.legisbox.fr/health",
     "icon": "https://icons.duckduckgo.com/ip3/api.legisbox.fr.ico",
     "slug": "api-health-general",
-    "status": "degraded",
+    "status": "up",
     "uptime": "52.67%",
-    "uptimeDay": "99.98%",
+    "uptimeDay": "99.96%",
     "uptimeWeek": "91.50%",
     "uptimeMonth": "52.67%",
     "uptimeYear": "52.67%",
-    "time": 1015,
-    "timeDay": 1378,
-    "timeWeek": 1346,
-    "timeMonth": 1015,
-    "timeYear": 1015,
+    "time": 999,
+    "timeDay": 1018,
+    "timeWeek": 1277,
+    "timeMonth": 999,
+    "timeYear": 999,
     "dailyMinutesDown": {
       "2026-09-02": 288,
       "2026-09-01": 1440,
@@ -33,7 +33,7 @@
       "2026-09-08": 487,
       "2026-09-17": 532,
       "2026-09-16": 325,
-      "2026-09-20": 0
+      "2026-09-20": 1
     }
   },
   {
@@ -124,7 +124,7 @@
     "status": "up",
     "uptime": "16.88%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "62.43%",
+    "uptimeWeek": "62.44%",
     "uptimeMonth": "16.88%",
     "uptimeYear": "16.88%",
     "time": 2552,

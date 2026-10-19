@@ -78,15 +78,15 @@
     "url": "https://api.legisbox.fr/health/redis",
     "icon": "https://icons.duckduckgo.com/ip3/api.legisbox.fr.ico",
     "slug": "api-redis",
-    "status": "degraded",
+    "status": "up",
     "uptime": "48.25%",
-    "uptimeDay": "66.11%",
-    "uptimeWeek": "69.65%",
+    "uptimeDay": "66.07%",
+    "uptimeWeek": "69.64%",
     "uptimeMonth": "65.35%",
     "uptimeYear": "48.25%",
     "time": 570,
-    "timeDay": 544,
-    "timeWeek": 565,
+    "timeDay": 536,
+    "timeWeek": 562,
     "timeMonth": 571,
     "timeYear": 570,
     "dailyMinutesDown": {
@@ -143,7 +143,8 @@
       "2026-10-15": 807,
       "2026-10-16": 526,
       "2026-10-17": 196,
-      "2026-10-18": 488
+      "2026-10-18": 488,
+      "2026-10-19": 1
     }
   },
   {

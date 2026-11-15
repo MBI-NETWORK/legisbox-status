@@ -1,7 +1,7 @@
 url: https://api.legisbox.fr/health
-status: degraded
+status: down
 code: 502
-responseTime: 1077
-lastUpdated: 2026-11-15T17:17:02.966Z
+responseTime: 772
+lastUpdated: 2026-11-15T21:53:50.622Z
 startTime: 2026-08-25T21:26:51.081Z
 generator: Upptime <https://github.com/upptime/upptime>
